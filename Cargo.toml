@@ -1,0 +1,12 @@
+[package]
+name = "ast"
+version = "0.1.0"
+authors = ["Ingars Ribners <ram3a12@gmail.com>"]
+
+[dependencies]
+time = "0.1.12"
+
+[dependencies.rusqlite]
+version = "0.18.0"
+features = ["bundled"]
+
